@@ -20,15 +20,27 @@ Para ejecutar y desarrollar en este proyecto, necesitarás:
 - **JDK 22 o superior** [Descargar](https://www.oracle.com/es/java/technologies/downloads/)
 - Un dispositivo Android o un emulador configurado.
 
-# Instalación
+# Descarga del proyecto
 
-1. Clona este repositorio en tu máquina local:
+**1a.** Clona este repositorio en tu máquina local y abre el proyecto en Android Studio:
+
    ```bash
    git clone https://github.com/usuario/proyecto-android-ejemplo.git
-   ```
+   ```  
 
-   O directamente desde Android Studio en la opción Git > Clone...
+**1b.** Abre Android Studio y clona el repositorio desde la opción Git > Clone...
 
 ![image](https://github.com/user-attachments/assets/7008b328-f011-41a9-bc0e-30bfdb56a053)
 
+**2.** Sincroniza las dependencias de Gradle y espera a que finalice la configuración.
+**3.** Conecta un dispositivo Android o configura un emulador.
+**4.** Ejecuta la aplicación desde Android Studio.
 
+# Descarga del proyecto
+
+* **/app**: Carpeta principal que contiene el código de la aplicación.
+     * **/src**: Contiene el código fuente de la aplicación.
+          * **/main**: Carpeta principal del código fuente.
+               * **/java**: Contiene los archivos .java con las clases y actividades.
+               * **/res**: Carpeta de recursos, que contiene los layouts, imágenes y otros recursos necesarios.
+     * **AndroidManifest.xml**: Archivo de manifiesto que define las actividades, permisos y otros componentes clave de la aplicación.
