@@ -33,14 +33,26 @@ Para ejecutar y desarrollar en este proyecto, necesitarás:
 ![image](https://github.com/user-attachments/assets/7008b328-f011-41a9-bc0e-30bfdb56a053)
 
 **2.** Sincroniza las dependencias de Gradle y espera a que finalice la configuración.
+
 **3.** Conecta un dispositivo Android o configura un emulador.
+
 **4.** Ejecuta la aplicación desde Android Studio.
 
-# Descarga del proyecto
 
-* **/app**: Carpeta principal que contiene el código de la aplicación.
-     * **/src**: Contiene el código fuente de la aplicación.
-          * **/main**: Carpeta principal del código fuente.
-               * **/java**: Contiene los archivos .java con las clases y actividades.
-               * **/res**: Carpeta de recursos, que contiene los layouts, imágenes y otros recursos necesarios.
-     * **AndroidManifest.xml**: Archivo de manifiesto que define las actividades, permisos y otros componentes clave de la aplicación.
+# Estructura del proyecto
+
+* **`/app`**: Carpeta principal que contiene el código de la aplicación.
+     * **`/src`**: Contiene el código fuente de la aplicación.
+          * **`/main`**: Carpeta principal del código fuente.
+               * **`/java`**: Contiene los archivos .java con las clases y actividades.
+               * **`/res`**: Carpeta de recursos, que contiene los layouts, imágenes y otros recursos necesarios.
+                 - **`drawable/`**: Recursos gráficos.
+                 - **`layout/`**: Archivos XML de diseño.
+                 - **`mipmap/`**: Iconos de la aplicación.
+                 - **`values/`**: Archivos XML que contienen valores como strings y estilos.
+               * **`AndroidManifest.xml`**: Archivo de manifiesto que define las actividades, permisos y otros componentes clave de la aplicación. 
+          * **`test/`**: Código fuente para pruebas unitarias.
+          * **`androidTest/`**: Código fuente para pruebas instrumentadas.
+     * **`build.gradle.kts`**: Archivo de configuración del módulo `app` en formato Kotlin DSL para Gradle. Define dependencias y configuraciones específicas del módulo.
+
+
